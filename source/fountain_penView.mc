@@ -44,8 +44,31 @@ class fountain_penView extends WatchUi.WatchFace {
         view.setColor(getApp().getProperty("ForegroundColor") as Number);
         view.setText(timeString);
         
-        // // Update the VO2??
-        View.findDrawableById("V02Label").setText("hello");
+        // Update north view
+        var myStats = System.getSystemStats();
+        View.findDrawableById("north").setText(myStats.battery.format("%d") + "%");
+
+        // Update north-east view
+        View.findDrawableById("northeast").setText("ne");
+
+        // Update east view
+        View.findDrawableById("east").setText("e");
+
+        // Update south-east view
+        View.findDrawableById("southeast").setText("se");
+
+        // Update south view
+        View.findDrawableById("south").setText("s");
+
+        // Update south-west view
+        View.findDrawableById("southwest").setText("sw");
+
+        // Update west view
+        View.findDrawableById("west").setText("w");
+        
+        // Update north-west view
+        View.findDrawableById("northwest").setText("nw");
+
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);

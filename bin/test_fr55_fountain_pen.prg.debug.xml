@@ -133,8 +133,8 @@
         <entry endPc="268436105" name="clockTime" stackId="3" startPc="268435767"/>
         <entry endPc="268436105" name="timeFormat" stackId="2" startPc="268435767"/>
         <entry arg="true" endPc="268436106" name="dc" stackId="1" startPc="268435763"/>
-        <entry endPc="268436490" name="rez_cmp_local_text_VO2Label" stackId="4" startPc="268436134"/>
-        <entry endPc="268436490" name="rez_cmp_local_custom_drawable_22893369218786106313" stackId="2" startPc="268436134"/>
+        <entry endPc="268436490" name="rez_cmp_local_text_V02Label" stackId="4" startPc="268436134"/>
+        <entry endPc="268436490" name="rez_cmp_local_custom_drawable_53478494764406080603" stackId="2" startPc="268436134"/>
         <entry endPc="268436490" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268436134"/>
         <entry arg="true" endPc="268436491" name="dc" stackId="1" startPc="268436122"/>
     </localVars>
