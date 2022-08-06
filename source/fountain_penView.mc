@@ -25,71 +25,53 @@ class fountain_penView extends WatchUi.WatchFace {
 
     // Update the view
     function onUpdate(dc as Dc) as Void {
-        // Get the current time and format it correctly
-        var timeFormat = "$1$:$2$";
-        var clockTime = System.getClockTime();
-        var hours = clockTime.hour;
-        var minutes = clockTime.min;
-        if (!System.getDeviceSettings().is24Hour) {
-            if (hours > 12) {
-                hours = hours - 12;
-            }
-        } else {
-            if (getApp().getProperty("UseMilitaryFormat")) {
-                timeFormat = "$1$$2$";
-                hours = hours.format("%02d");
-            }
-        }
-        var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
 
         // Get variables for use in view updates
+        var today = Time.Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
+        var hour = today.hour;
+        if (hour > 12) {
+            hour = hour - 12;
+        }
         var userProfile = UserProfile.getProfile();
         var birthYear = "" + userProfile.birthYear;
         var weight = "" + userProfile.weight / 1000 + " kg";
         var gender = "" + userProfile.gender;
         var vo2 = "VO2 " + userProfile.vo2maxRunning;
-        var hr = "" + SensorHistory.getHeartRateHistory(null).next().data + " bpm";
+        var hr = "BPM " + SensorHistory.getHeartRateHistory(null).next().data;
 
         var temp = "" + Weather.getCurrentConditions().temperature;
 
         var userActivity = ActivityMonitor.getInfo();
-        // var hrIterator = ActivityMonitor.getHeartRateHistory(null, false);
-        // var hr = "" + hrIterator.heartRate;
-        var steps = "" + userActivity.steps;
-        var calories = "" + userActivity.calories;
+        var steps = "STEPS " + userActivity.steps;
+        var calories = "KCALS " + userActivity.calories;
 
-        // Update centertop view
-        var view = View.findDrawableById("centertop") as Text;
-        view.setColor(getApp().getProperty("ForegroundColor") as Number);
-        view.setText("" + hours);
+        // Update hours
+        View.findDrawableById("hourLabel").setText("" + hour.format("%02d"));
 
-        // Update centerbottom view
-        View.findDrawableById("centerbottom").setText("" + minutes);
+        // Update minutes
+        View.findDrawableById("minLabel").setText("" + today.min.format("%02d"));
 
-        // Update north view
-        var myStats = System.getSystemStats();
-        View.findDrawableById("north").setText(myStats.battery.format("%d") + "%");
-
-        // Update north-east view
-        View.findDrawableById("northeast").setText("" + userProfile.birthYear);
-
-        // Update east view
-        View.findDrawableById("east").setText(weight);
-
-        // Update south-east view
-        View.findDrawableById("southeast").setText(vo2);
-
-        // Update south view
-        View.findDrawableById("south").setText(steps);
-
-        // Update south-west view
-        View.findDrawableById("southwest").setText(calories);
+        // Update vo2
+        View.findDrawableById("vo2Label").setText(vo2);
 
         // Update west view
-        View.findDrawableById("west").setText(hr);
-        
-        // Update north-west view
-        View.findDrawableById("northwest").setText(temp);
+        View.findDrawableById("heartRateLabel").setText(hr);
+
+        // Update south view
+        View.findDrawableById("calorieLabel").setText(calories);
+
+        // Update south-west view
+        View.findDrawableById("stepLabel").setText(steps);
+
+        // Update dateLabel
+        View.findDrawableById("dateLabel").setText("" + today.day_of_week + ", " + today.month + " " + today.day + " " + today.year);
+
+        // // Update north view
+        // var myStats = System.getSystemStats();
+        // View.findDrawableById("north").setText(myStats.battery.format("%d") + "%");
+
+        // // Update north-west view
+        // View.findDrawableById("northwest").setText(temp);
 
 
         // Call the parent onUpdate function to redraw the layout
