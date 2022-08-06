@@ -31,7 +31,7 @@ class fountain_penView extends WatchUi.WatchFace {
         var hour = today.hour;
         var userProfile = UserProfile.getProfile();
         var vo2 = "VO2 " + userProfile.vo2maxRunning;
-        var hr = "HR " + SensorHistory.getHeartRateHistory(null).next().data;
+        var hr = SensorHistory.getHeartRateHistory(null).next().data;
         var userActivity = ActivityMonitor.getInfo();
         var steps = "STEPS " + userActivity.steps;
         var calories = "CALS " + userActivity.calories;
@@ -44,6 +44,8 @@ class fountain_penView extends WatchUi.WatchFace {
         // Replaces HR with - if data not available
         if (hr == null) {
             hr = "-";
+        } else {
+            hr = "HR " + hr;
         }
 
         // Updates watch display fields
