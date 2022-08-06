@@ -3,6 +3,7 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
+import Toybox.ActivityMonitor;
 
 class fountain_penView extends WatchUi.WatchFace {
 
@@ -39,8 +40,26 @@ class fountain_penView extends WatchUi.WatchFace {
         }
         var timeString = Lang.format(timeFormat, [hours, clockTime.min.format("%02d")]);
 
-        // Update the view
-        var view = View.findDrawableById("TimeLabel") as Text;
+        // Get variables for use in view updates
+        var userProfile = UserProfile.getProfile();
+        var birthYear = "" + userProfile.birthYear;
+        var weight = "" + userProfile.weight / 1000 + " kg";
+        var gender = "" + userProfile.gender;
+        var vo2 = "" + userProfile.vo2maxRunning;
+
+        // var hr = SensorHistory.getHeartRateHistory(null).next();
+
+
+        var userActivity = ActivityMonitor.getInfo();
+        // var hrIterator = ActivityMonitor.getHeartRateHistory(null, false);
+        // var hr = "" + hrIterator.heartRate;
+        var steps = "" + userActivity.steps;
+        var calories = "" + userActivity.calories;
+
+        // var vo2 = userProfile.vo2maxRunning;
+
+        // Update the center view
+        var view = View.findDrawableById("center") as Text;
         view.setColor(getApp().getProperty("ForegroundColor") as Number);
         view.setText(timeString);
         
@@ -49,19 +68,19 @@ class fountain_penView extends WatchUi.WatchFace {
         View.findDrawableById("north").setText(myStats.battery.format("%d") + "%");
 
         // Update north-east view
-        View.findDrawableById("northeast").setText("ne");
+        View.findDrawableById("northeast").setText("" + userProfile.birthYear);
 
         // Update east view
-        View.findDrawableById("east").setText("e");
+        View.findDrawableById("east").setText(weight);
 
         // Update south-east view
-        View.findDrawableById("southeast").setText("se");
+        View.findDrawableById("southeast").setText(vo2);
 
         // Update south view
-        View.findDrawableById("south").setText("s");
+        View.findDrawableById("south").setText(steps);
 
         // Update south-west view
-        View.findDrawableById("southwest").setText("sw");
+        View.findDrawableById("southwest").setText(calories);
 
         // Update west view
         View.findDrawableById("west").setText("w");
