@@ -4,6 +4,7 @@ import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
 import Toybox.ActivityMonitor;
+import Toybox.Weather;
 
 class fountain_penView extends WatchUi.WatchFace {
 
@@ -28,6 +29,7 @@ class fountain_penView extends WatchUi.WatchFace {
         var timeFormat = "$1$:$2$";
         var clockTime = System.getClockTime();
         var hours = clockTime.hour;
+        var minutes = clockTime.min;
         if (!System.getDeviceSettings().is24Hour) {
             if (hours > 12) {
                 hours = hours - 12;
@@ -45,10 +47,10 @@ class fountain_penView extends WatchUi.WatchFace {
         var birthYear = "" + userProfile.birthYear;
         var weight = "" + userProfile.weight / 1000 + " kg";
         var gender = "" + userProfile.gender;
-        var vo2 = "" + userProfile.vo2maxRunning;
+        var vo2 = "VO2 " + userProfile.vo2maxRunning;
+        var hr = "" + SensorHistory.getHeartRateHistory(null).next().data + " bpm";
 
-        // var hr = SensorHistory.getHeartRateHistory(null).next();
-
+        var temp = "" + Weather.getCurrentConditions().temperature;
 
         var userActivity = ActivityMonitor.getInfo();
         // var hrIterator = ActivityMonitor.getHeartRateHistory(null, false);
@@ -56,13 +58,14 @@ class fountain_penView extends WatchUi.WatchFace {
         var steps = "" + userActivity.steps;
         var calories = "" + userActivity.calories;
 
-        // var vo2 = userProfile.vo2maxRunning;
-
-        // Update the center view
-        var view = View.findDrawableById("center") as Text;
+        // Update centertop view
+        var view = View.findDrawableById("centertop") as Text;
         view.setColor(getApp().getProperty("ForegroundColor") as Number);
-        view.setText(timeString);
-        
+        view.setText("" + hours);
+
+        // Update centerbottom view
+        View.findDrawableById("centerbottom").setText("" + minutes);
+
         // Update north view
         var myStats = System.getSystemStats();
         View.findDrawableById("north").setText(myStats.battery.format("%d") + "%");
@@ -83,10 +86,10 @@ class fountain_penView extends WatchUi.WatchFace {
         View.findDrawableById("southwest").setText(calories);
 
         // Update west view
-        View.findDrawableById("west").setText("w");
+        View.findDrawableById("west").setText(hr);
         
         // Update north-west view
-        View.findDrawableById("northwest").setText("nw");
+        View.findDrawableById("northwest").setText(temp);
 
 
         // Call the parent onUpdate function to redraw the layout
