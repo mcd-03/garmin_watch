@@ -27,37 +27,37 @@
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="14" lineNum="18" parent="globals/fountain_penView" pc="268435716" symbol="onLayout"/>
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="14" lineNum="19" parent="globals/fountain_penView" pc="268435720" symbol="onLayout"/>
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="15" lineNum="25" parent="globals/fountain_penView" pc="268435758" symbol="onShow"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="31" parent="globals/fountain_penView" pc="268435763" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="33" parent="globals/fountain_penView" pc="268435767" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="36" parent="globals/fountain_penView" pc="268435810" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="37" parent="globals/fountain_penView" pc="268435827" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="38" parent="globals/fountain_penView" pc="268435837" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="39" parent="globals/fountain_penView" pc="268435847" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="40" parent="globals/fountain_penView" pc="268435866" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="41" parent="globals/fountain_penView" pc="268435876" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="42" parent="globals/fountain_penView" pc="268435932" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="43" parent="globals/fountain_penView" pc="268435942" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="46" parent="globals/fountain_penView" pc="268435977" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="47" parent="globals/fountain_penView" pc="268435988" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="51" parent="globals/fountain_penView" pc="268436001" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="52" parent="globals/fountain_penView" pc="268436008" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="54" parent="globals/fountain_penView" pc="268436018" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="58" parent="globals/fountain_penView" pc="268436028" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="59" parent="globals/fountain_penView" pc="268436065" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="60" parent="globals/fountain_penView" pc="268436102" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="61" parent="globals/fountain_penView" pc="268436139" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="64" parent="globals/fountain_penView" pc="268436176" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="65" parent="globals/fountain_penView" pc="268436230" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="66" parent="globals/fountain_penView" pc="268436290" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="67" parent="globals/fountain_penView" pc="268436330" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="68" parent="globals/fountain_penView" pc="268436364" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="69" parent="globals/fountain_penView" pc="268436404" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="70" parent="globals/fountain_penView" pc="268436444" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="73" parent="globals/fountain_penView" pc="268436535" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="17" lineNum="79" parent="globals/fountain_penView" pc="268436556" symbol="onHide"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="18" lineNum="83" parent="globals/fountain_penView" pc="268436561" symbol="onExitSleep"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="18" lineNum="84" parent="globals/fountain_penView" pc="268436565" symbol="onExitSleep"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="19" lineNum="88" parent="globals/fountain_penView" pc="268436592" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="30" parent="globals/fountain_penView" pc="268435763" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="34" parent="globals/fountain_penView" pc="268435767" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="37" parent="globals/fountain_penView" pc="268435810" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="38" parent="globals/fountain_penView" pc="268435827" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="39" parent="globals/fountain_penView" pc="268435837" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="40" parent="globals/fountain_penView" pc="268435847" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="41" parent="globals/fountain_penView" pc="268435866" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="42" parent="globals/fountain_penView" pc="268435876" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="43" parent="globals/fountain_penView" pc="268435932" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="44" parent="globals/fountain_penView" pc="268435942" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="47" parent="globals/fountain_penView" pc="268435977" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="48" parent="globals/fountain_penView" pc="268435988" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="52" parent="globals/fountain_penView" pc="268436001" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="53" parent="globals/fountain_penView" pc="268436008" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="55" parent="globals/fountain_penView" pc="268436018" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="59" parent="globals/fountain_penView" pc="268436028" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="60" parent="globals/fountain_penView" pc="268436065" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="61" parent="globals/fountain_penView" pc="268436102" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="62" parent="globals/fountain_penView" pc="268436139" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="65" parent="globals/fountain_penView" pc="268436176" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="66" parent="globals/fountain_penView" pc="268436230" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="67" parent="globals/fountain_penView" pc="268436290" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="68" parent="globals/fountain_penView" pc="268436330" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="69" parent="globals/fountain_penView" pc="268436364" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="70" parent="globals/fountain_penView" pc="268436404" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="71" parent="globals/fountain_penView" pc="268436444" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="74" parent="globals/fountain_penView" pc="268436535" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="17" lineNum="80" parent="globals/fountain_penView" pc="268436556" symbol="onHide"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="18" lineNum="84" parent="globals/fountain_penView" pc="268436561" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="18" lineNum="85" parent="globals/fountain_penView" pc="268436565" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="19" lineNum="89" parent="globals/fountain_penView" pc="268436592" symbol="onEnterSleep"/>
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="20" lineNum="9" parent="globals/fountain_penView" pc="268438275" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="20" lineNum="9" parent="globals/fountain_penView" pc="268438275" symbol="&lt;init&gt;"/>
         <entry filename="Rez" id="22" lineNum="2" parent="globals/Rez/Drawables" pc="268438269" symbol="&lt;init&gt;"/>
@@ -166,8 +166,8 @@
         <entry endPc="268438223" name="rez_cmp_local_text_hourLabel" stackId="4" startPc="268436609"/>
         <entry endPc="268438223" name="rez_cmp_local_text_fireIcon" stackId="11" startPc="268436609"/>
         <entry endPc="268438223" name="rez_cmp_local_text_dateLabel" stackId="10" startPc="268436609"/>
-        <entry endPc="268438223" name="rez_cmp_local_custom_drawable_19160159371040326940" stackId="3" startPc="268436609"/>
         <entry endPc="268438223" name="rez_cmp_local_text_walkIcon" stackId="12" startPc="268436609"/>
+        <entry endPc="268438223" name="rez_cmp_local_custom_drawable_21693029920430751882" stackId="3" startPc="268436609"/>
         <entry endPc="268438223" name="rez_cmp_local_text_heartRateLabel" stackId="9" startPc="268436609"/>
         <entry endPc="268438223" name="rez_cmp_local_text_heartIcon" stackId="14" startPc="268436609"/>
         <entry endPc="268438223" name="rez_cmp_local_text_stepLabel" stackId="7" startPc="268436609"/>

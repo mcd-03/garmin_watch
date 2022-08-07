@@ -26,7 +26,6 @@ class fountain_penView extends WatchUi.WatchFace {
     }
 
     
-
     // Update the view
     function onUpdate(dc as Dc) as Void {
 
