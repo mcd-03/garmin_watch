@@ -10,8 +10,8 @@
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penApp.mc" id="4" lineNum="21" parent="globals/fountain_penApp" pc="268435493" symbol="getInitialView"/>
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penApp.mc" id="5" lineNum="25" parent="globals/fountain_penApp" pc="268435531" symbol="onSettingsChanged"/>
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penApp.mc" id="5" lineNum="26" parent="globals/fountain_penApp" pc="268435535" symbol="onSettingsChanged"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penApp.mc" id="6" lineNum="5" parent="globals/fountain_penApp" pc="268438461" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penApp.mc" id="6" lineNum="5" parent="globals/fountain_penApp" pc="268438461" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penApp.mc" id="6" lineNum="5" parent="globals/fountain_penApp" pc="268438435" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penApp.mc" id="6" lineNum="5" parent="globals/fountain_penApp" pc="268438435" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penApp.mc" id="7" lineNum="31" parent="globals" pc="268435552" symbol="getApp"/>
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penApp.mc" id="7" lineNum="32" parent="globals" pc="268435564" symbol="getApp"/>
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penBackground.mc" id="9" lineNum="8" parent="globals/Background" pc="268435581" symbol="initialize"/>
@@ -20,8 +20,8 @@
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penBackground.mc" id="10" lineNum="16" parent="globals/Background" pc="268435627" symbol="draw"/>
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penBackground.mc" id="10" lineNum="18" parent="globals/Background" pc="268435631" symbol="draw"/>
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penBackground.mc" id="10" lineNum="19" parent="globals/Background" pc="268435680" symbol="draw"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penBackground.mc" id="11" lineNum="6" parent="globals/Background" pc="268438393" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penBackground.mc" id="11" lineNum="6" parent="globals/Background" pc="268438393" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penBackground.mc" id="11" lineNum="6" parent="globals/Background" pc="268438367" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penBackground.mc" id="11" lineNum="6" parent="globals/Background" pc="268438367" symbol="&lt;init&gt;"/>
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="13" lineNum="14" parent="globals/fountain_penView" pc="268435693" symbol="initialize"/>
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="13" lineNum="15" parent="globals/fountain_penView" pc="268435697" symbol="initialize"/>
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="14" lineNum="19" parent="globals/fountain_penView" pc="268435716" symbol="onLayout"/>
@@ -56,43 +56,42 @@
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="73" parent="globals/fountain_penView" pc="268436437" symbol="onUpdate"/>
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="74" parent="globals/fountain_penView" pc="268436477" symbol="onUpdate"/>
         <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="16" lineNum="77" parent="globals/fountain_penView" pc="268436568" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="17" lineNum="80" parent="globals/fountain_penView" pc="268436589" symbol="onPartialUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="17" lineNum="81" parent="globals/fountain_penView" pc="268436593" symbol="onPartialUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="17" lineNum="83" parent="globals/fountain_penView" pc="268436616" symbol="onPartialUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="17" lineNum="84" parent="globals/fountain_penView" pc="268436623" symbol="onPartialUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="17" lineNum="86" parent="globals/fountain_penView" pc="268436661" symbol="onPartialUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="17" lineNum="87" parent="globals/fountain_penView" pc="268436668" symbol="onPartialUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="17" lineNum="90" parent="globals/fountain_penView" pc="268436678" symbol="onPartialUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="17" lineNum="92" parent="globals/fountain_penView" pc="268436688" symbol="onPartialUpdate"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="18" lineNum="98" parent="globals/fountain_penView" pc="268436723" symbol="onHide"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="19" lineNum="102" parent="globals/fountain_penView" pc="268436728" symbol="onExitSleep"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="19" lineNum="103" parent="globals/fountain_penView" pc="268436732" symbol="onExitSleep"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="20" lineNum="107" parent="globals/fountain_penView" pc="268436759" symbol="onEnterSleep"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="21" lineNum="10" parent="globals/fountain_penView" pc="268438442" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="21" lineNum="10" parent="globals/fountain_penView" pc="268438442" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="23" lineNum="2" parent="globals/Rez/Drawables" pc="268438436" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="24" lineNum="6" parent="globals/Rez/Fonts" pc="268438438" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="25" lineNum="10" parent="globals/Rez/JsonData" pc="268438440" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="26" lineNum="19" parent="globals/Rez/Layouts" pc="268436764" symbol="WatchFace"/>
-        <entry filename="Rez" id="26" lineNum="20" parent="globals/Rez/Layouts" pc="268436776" symbol="WatchFace"/>
-        <entry filename="Rez" id="26" lineNum="22" parent="globals/Rez/Layouts" pc="268436817" symbol="WatchFace"/>
-        <entry filename="Rez" id="26" lineNum="23" parent="globals/Rez/Layouts" pc="268436841" symbol="WatchFace"/>
-        <entry filename="Rez" id="26" lineNum="24" parent="globals/Rez/Layouts" pc="268436974" symbol="WatchFace"/>
-        <entry filename="Rez" id="26" lineNum="25" parent="globals/Rez/Layouts" pc="268437107" symbol="WatchFace"/>
-        <entry filename="Rez" id="26" lineNum="26" parent="globals/Rez/Layouts" pc="268437240" symbol="WatchFace"/>
-        <entry filename="Rez" id="26" lineNum="27" parent="globals/Rez/Layouts" pc="268437373" symbol="WatchFace"/>
-        <entry filename="Rez" id="26" lineNum="28" parent="globals/Rez/Layouts" pc="268437506" symbol="WatchFace"/>
-        <entry filename="Rez" id="26" lineNum="29" parent="globals/Rez/Layouts" pc="268437639" symbol="WatchFace"/>
-        <entry filename="Rez" id="26" lineNum="30" parent="globals/Rez/Layouts" pc="268437772" symbol="WatchFace"/>
-        <entry filename="Rez" id="26" lineNum="31" parent="globals/Rez/Layouts" pc="268437895" symbol="WatchFace"/>
-        <entry filename="Rez" id="26" lineNum="32" parent="globals/Rez/Layouts" pc="268438018" symbol="WatchFace"/>
-        <entry filename="Rez" id="26" lineNum="33" parent="globals/Rez/Layouts" pc="268438141" symbol="WatchFace"/>
-        <entry filename="Rez" id="26" lineNum="35" parent="globals/Rez/Layouts" pc="268438264" symbol="WatchFace"/>
-        <entry filename="Rez" id="27" lineNum="12" parent="globals/Rez/Layouts" pc="268438439" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="28" lineNum="40" parent="globals/Rez/Menus" pc="268438437" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="29" lineNum="42" parent="globals/Rez/Strings" pc="268438441" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="30" lineNum="1" parent="globals/Rez" pc="268438412" symbol="&lt;init&gt;"/>
-        <entry filename="Rez" id="30" lineNum="1" parent="globals/Rez" pc="268438412" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="17" lineNum="81" parent="globals/fountain_penView" pc="268436589" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="17" lineNum="82" parent="globals/fountain_penView" pc="268436593" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="17" lineNum="84" parent="globals/fountain_penView" pc="268436616" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="17" lineNum="85" parent="globals/fountain_penView" pc="268436623" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="17" lineNum="87" parent="globals/fountain_penView" pc="268436661" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="17" lineNum="88" parent="globals/fountain_penView" pc="268436668" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="17" lineNum="91" parent="globals/fountain_penView" pc="268436678" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="17" lineNum="93" parent="globals/fountain_penView" pc="268436688" symbol="onPartialUpdate"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="18" lineNum="99" parent="globals/fountain_penView" pc="268436723" symbol="onHide"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="19" lineNum="103" parent="globals/fountain_penView" pc="268436728" symbol="onExitSleep"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="20" lineNum="107" parent="globals/fountain_penView" pc="268436733" symbol="onEnterSleep"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="21" lineNum="10" parent="globals/fountain_penView" pc="268438416" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\Jon\\Source\\garmin\\fountain_pen\\source\\fountain_penView.mc" id="21" lineNum="10" parent="globals/fountain_penView" pc="268438416" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="23" lineNum="2" parent="globals/Rez/Drawables" pc="268438410" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="24" lineNum="6" parent="globals/Rez/Fonts" pc="268438412" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="25" lineNum="10" parent="globals/Rez/JsonData" pc="268438414" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="26" lineNum="19" parent="globals/Rez/Layouts" pc="268436738" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="20" parent="globals/Rez/Layouts" pc="268436750" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="22" parent="globals/Rez/Layouts" pc="268436791" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="23" parent="globals/Rez/Layouts" pc="268436815" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="24" parent="globals/Rez/Layouts" pc="268436948" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="25" parent="globals/Rez/Layouts" pc="268437081" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="26" parent="globals/Rez/Layouts" pc="268437214" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="27" parent="globals/Rez/Layouts" pc="268437347" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="28" parent="globals/Rez/Layouts" pc="268437480" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="29" parent="globals/Rez/Layouts" pc="268437613" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="30" parent="globals/Rez/Layouts" pc="268437746" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="31" parent="globals/Rez/Layouts" pc="268437869" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="32" parent="globals/Rez/Layouts" pc="268437992" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="33" parent="globals/Rez/Layouts" pc="268438115" symbol="WatchFace"/>
+        <entry filename="Rez" id="26" lineNum="35" parent="globals/Rez/Layouts" pc="268438238" symbol="WatchFace"/>
+        <entry filename="Rez" id="27" lineNum="12" parent="globals/Rez/Layouts" pc="268438413" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="28" lineNum="40" parent="globals/Rez/Menus" pc="268438411" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="29" lineNum="42" parent="globals/Rez/Strings" pc="268438415" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="30" lineNum="1" parent="globals/Rez" pc="268438386" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="30" lineNum="1" parent="globals/Rez" pc="268438386" symbol="&lt;init&gt;"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
@@ -175,20 +174,20 @@
         <entry arg="true" endPc="268436588" name="dc" stackId="1" startPc="268435763"/>
         <entry endPc="268436721" name="hr" stackId="2" startPc="268436593"/>
         <entry arg="true" endPc="268436722" name="dc" stackId="1" startPc="268436589"/>
-        <entry endPc="268438390" name="rez_cmp_local_text_vo2Label" stackId="8" startPc="268436776"/>
-        <entry endPc="268438390" name="rez_cmp_local_text_lungIcon" stackId="13" startPc="268436776"/>
-        <entry endPc="268438390" name="rez_cmp_local_text_hourLabel" stackId="4" startPc="268436776"/>
-        <entry endPc="268438390" name="rez_cmp_local_text_fireIcon" stackId="11" startPc="268436776"/>
-        <entry endPc="268438390" name="rez_cmp_local_text_dateLabel" stackId="10" startPc="268436776"/>
-        <entry endPc="268438390" name="rez_cmp_local_text_walkIcon" stackId="12" startPc="268436776"/>
-        <entry endPc="268438390" name="rez_cmp_local_text_heartRateLabel" stackId="9" startPc="268436776"/>
-        <entry endPc="268438390" name="rez_cmp_local_custom_drawable_19202952281468373266" stackId="3" startPc="268436776"/>
-        <entry endPc="268438390" name="rez_cmp_local_text_heartIcon" stackId="14" startPc="268436776"/>
-        <entry endPc="268438390" name="rez_cmp_local_text_stepLabel" stackId="7" startPc="268436776"/>
-        <entry endPc="268438390" name="rez_cmp_local_text_minLabel" stackId="5" startPc="268436776"/>
-        <entry endPc="268438390" name="local_Rez_Fonts_customFont" stackId="2" startPc="268436776"/>
-        <entry endPc="268438390" name="rez_cmp_local_text_calorieLabel" stackId="6" startPc="268436776"/>
-        <entry arg="true" endPc="268438391" name="dc" stackId="1" startPc="268436764"/>
+        <entry endPc="268438364" name="rez_cmp_local_text_vo2Label" stackId="8" startPc="268436750"/>
+        <entry endPc="268438364" name="rez_cmp_local_text_lungIcon" stackId="13" startPc="268436750"/>
+        <entry endPc="268438364" name="rez_cmp_local_text_hourLabel" stackId="4" startPc="268436750"/>
+        <entry endPc="268438364" name="rez_cmp_local_text_fireIcon" stackId="11" startPc="268436750"/>
+        <entry endPc="268438364" name="rez_cmp_local_text_dateLabel" stackId="10" startPc="268436750"/>
+        <entry endPc="268438364" name="rez_cmp_local_text_walkIcon" stackId="12" startPc="268436750"/>
+        <entry endPc="268438364" name="rez_cmp_local_text_heartRateLabel" stackId="9" startPc="268436750"/>
+        <entry endPc="268438364" name="rez_cmp_local_text_heartIcon" stackId="14" startPc="268436750"/>
+        <entry endPc="268438364" name="rez_cmp_local_text_stepLabel" stackId="7" startPc="268436750"/>
+        <entry endPc="268438364" name="rez_cmp_local_custom_drawable_24793910191380936618" stackId="3" startPc="268436750"/>
+        <entry endPc="268438364" name="rez_cmp_local_text_minLabel" stackId="5" startPc="268436750"/>
+        <entry endPc="268438364" name="local_Rez_Fonts_customFont" stackId="2" startPc="268436750"/>
+        <entry endPc="268438364" name="rez_cmp_local_text_calorieLabel" stackId="6" startPc="268436750"/>
+        <entry arg="true" endPc="268438365" name="dc" stackId="1" startPc="268436738"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -235,7 +234,7 @@
         <functionEntry accessMode="public" endPc="268435551" name="onSettingsChanged" parent="fountain_penApp" startPc="268435531">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438479" name="&lt;init&gt;" parent="fountain_penApp" startPc="268438461">
+        <functionEntry accessMode="protected" endPc="268438453" name="&lt;init&gt;" parent="fountain_penApp" startPc="268438435">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435580" name="getApp" startPc="268435552">
@@ -248,7 +247,7 @@
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438411" name="&lt;init&gt;" parent="Background" startPc="268438393">
+        <functionEntry accessMode="protected" endPc="268438385" name="&lt;init&gt;" parent="Background" startPc="268438367">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" endPc="268435715" name="initialize" parent="fountain_penView" startPc="268435693">
@@ -272,38 +271,38 @@
         <functionEntry accessMode="public" endPc="268436727" name="onHide" parent="fountain_penView" startPc="268436723">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436758" name="onExitSleep" parent="fountain_penView" startPc="268436728">
+        <functionEntry accessMode="public" endPc="268436732" name="onExitSleep" parent="fountain_penView" startPc="268436728">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436763" name="onEnterSleep" parent="fountain_penView" startPc="268436759">
+        <functionEntry accessMode="public" endPc="268436737" name="onEnterSleep" parent="fountain_penView" startPc="268436733">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438460" name="&lt;init&gt;" parent="fountain_penView" startPc="268438442">
+        <functionEntry accessMode="protected" endPc="268438434" name="&lt;init&gt;" parent="fountain_penView" startPc="268438416">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438436" name="&lt;init&gt;" parent="Drawables" startPc="268438436">
+        <functionEntry accessMode="protected" endPc="268438410" name="&lt;init&gt;" parent="Drawables" startPc="268438410">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438438" name="&lt;init&gt;" parent="Fonts" startPc="268438438">
+        <functionEntry accessMode="protected" endPc="268438412" name="&lt;init&gt;" parent="Fonts" startPc="268438412">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438440" name="&lt;init&gt;" parent="JsonData" startPc="268438440">
+        <functionEntry accessMode="protected" endPc="268438414" name="&lt;init&gt;" parent="JsonData" startPc="268438414">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438391" name="WatchFace" parent="Layouts" startPc="268436764">
+        <functionEntry accessMode="public" endPc="268438365" name="WatchFace" parent="Layouts" startPc="268436738">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438439" name="&lt;init&gt;" parent="Layouts" startPc="268438439">
+        <functionEntry accessMode="protected" endPc="268438413" name="&lt;init&gt;" parent="Layouts" startPc="268438413">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438437" name="&lt;init&gt;" parent="Menus" startPc="268438437">
+        <functionEntry accessMode="protected" endPc="268438411" name="&lt;init&gt;" parent="Menus" startPc="268438411">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438441" name="&lt;init&gt;" parent="Strings" startPc="268438441">
+        <functionEntry accessMode="protected" endPc="268438415" name="&lt;init&gt;" parent="Strings" startPc="268438415">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="protected" endPc="268438435" name="&lt;init&gt;" parent="Rez" startPc="268438412">
+        <functionEntry accessMode="protected" endPc="268438409" name="&lt;init&gt;" parent="Rez" startPc="268438386">
             <documentation/>
         </functionEntry>
     </functions>

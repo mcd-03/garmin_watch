@@ -77,6 +77,7 @@ class fountain_penView extends WatchUi.WatchFace {
         View.onUpdate(dc);
     }
 
+    // When watch is in high power mode, called at 1Hz intervals
     function onPartialUpdate(dc as DC) as Void {
         var hr = Activity.getActivityInfo().currentHeartRate;
         // Replaces HR with - if data not available
@@ -100,7 +101,6 @@ class fountain_penView extends WatchUi.WatchFace {
 
     // The user has just looked at their watch. Timers and animations may be started here.
     function onExitSleep() as Void {
-        View.onUpdate(dc);
     }
 
     // Terminate any active timers and prepare for slow updates.
