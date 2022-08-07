@@ -8,6 +8,8 @@ import Toybox.Weather;
 
 class fountain_penView extends WatchUi.WatchFace {
 
+    var customFont = null;
+
     function initialize() {
         WatchFace.initialize();
     }
@@ -23,19 +25,23 @@ class fountain_penView extends WatchUi.WatchFace {
     function onShow() as Void {
     }
 
+    
+
     // Update the view
     function onUpdate(dc as Dc) as Void {
 
+        customFont = WatchUi.loadResource(Rez.Fonts.customFont);
+
         // Get variables for use in view updates
+        var userActivity = ActivityMonitor.getInfo();
+        var steps = userActivity.steps;
+        var calories = userActivity.calories;
+        var userProfile = UserProfile.getProfile();
+        var vo2 = userProfile.vo2maxRunning;
         var today = Time.Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
         var hour = today.hour;
-        var userProfile = UserProfile.getProfile();
-        var vo2 = "VO2 " + userProfile.vo2maxRunning;
         var hr = SensorHistory.getHeartRateHistory(null).next().data;
-        var userActivity = ActivityMonitor.getInfo();
-        var steps = "STEPS " + userActivity.steps;
-        var calories = "CALS " + userActivity.calories;
-        
+
         // Offsets time instead of using military time
         if (hour > 12) {
             hour = hour - 12;
@@ -45,16 +51,22 @@ class fountain_penView extends WatchUi.WatchFace {
         if (hr == null) {
             hr = "-";
         } else {
-            hr = "HR " + hr;
+            hr = "" + hr;
         }
+
+        // Test custom font
+        View.findDrawableById("fireIcon").setText("I");
+        View.findDrawableById("walkIcon").setText("W");
+        View.findDrawableById("lungIcon").setText("B");
+        View.findDrawableById("heartIcon").setText("H");
 
         // Updates watch display fields
         View.findDrawableById("hourLabel").setText("" + hour.format("%02d"));
         View.findDrawableById("minLabel").setText("" + today.min.format("%02d"));
-        View.findDrawableById("vo2Label").setText(vo2);
+        View.findDrawableById("vo2Label").setText("" + vo2);
         View.findDrawableById("heartRateLabel").setText(hr);
-        View.findDrawableById("calorieLabel").setText(calories);
-        View.findDrawableById("stepLabel").setText(steps);
+        View.findDrawableById("calorieLabel").setText("" + calories);
+        View.findDrawableById("stepLabel").setText("" + steps);
         View.findDrawableById("dateLabel").setText("" + today.day_of_week + ", " + today.month + " " + today.day + " " + today.year);
 
         // Call the parent onUpdate function to redraw the layout
