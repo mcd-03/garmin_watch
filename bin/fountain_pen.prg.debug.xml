@@ -161,12 +161,12 @@
         <entry endPc="268436554" name="userActivity" stackId="2" startPc="268435767"/>
         <entry endPc="268436554" name="calories" stackId="4" startPc="268435767"/>
         <entry arg="true" endPc="268436555" name="dc" stackId="1" startPc="268435763"/>
-        <entry endPc="268438223" name="rez_cmp_local_custom_drawable_12949115871942732150" stackId="3" startPc="268436609"/>
         <entry endPc="268438223" name="rez_cmp_local_text_vo2Label" stackId="8" startPc="268436609"/>
         <entry endPc="268438223" name="rez_cmp_local_text_lungIcon" stackId="13" startPc="268436609"/>
         <entry endPc="268438223" name="rez_cmp_local_text_hourLabel" stackId="4" startPc="268436609"/>
         <entry endPc="268438223" name="rez_cmp_local_text_fireIcon" stackId="11" startPc="268436609"/>
         <entry endPc="268438223" name="rez_cmp_local_text_dateLabel" stackId="10" startPc="268436609"/>
+        <entry endPc="268438223" name="rez_cmp_local_custom_drawable_19160159371040326940" stackId="3" startPc="268436609"/>
         <entry endPc="268438223" name="rez_cmp_local_text_walkIcon" stackId="12" startPc="268436609"/>
         <entry endPc="268438223" name="rez_cmp_local_text_heartRateLabel" stackId="9" startPc="268436609"/>
         <entry endPc="268438223" name="rez_cmp_local_text_heartIcon" stackId="14" startPc="268436609"/>

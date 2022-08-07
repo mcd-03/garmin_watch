@@ -2,13 +2,13 @@
     <drawable class="Background" />
     <label id="hourLabel" x="10%" y="15%" font="Graphics.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" />
     <label id="minLabel" x="10%" y="40%" font="Graphics.FONT_NUMBER_THAI_HOT" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_GREEN" />
-    <label id="calorieLabel" x="62%" y="27%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" />
-    <label id="stepLabel" x="62%" y="37%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" />
-    <label id="vo2Label" x="62%" y="50%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_GREEN" />
-    <label id="heartRateLabel" x="62%" y="62%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_GREEN" />
+    <label id="calorieLabel" x="62%" y="26%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" />
+    <label id="stepLabel" x="62%" y="39%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_WHITE" />
+    <label id="vo2Label" x="62%" y="52%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_GREEN" />
+    <label id="heartRateLabel" x="64%" y="62%" font="Graphics.FONT_SMALL" justification="Graphics.TEXT_JUSTIFY_LEFT" color="Graphics.COLOR_GREEN" />
     <label id="dateLabel" x="50%" y="77%" font="Graphics.FONT_XTINY" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" />
-    <label id="fireIcon" x="52%" y="27%" font="@Fonts.customFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
-    <label id="walkIcon" x="52%" y="37%" font="@Fonts.customFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
-    <label id="lungIcon" x="52%" y="50%" font="@Fonts.customFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" />
-    <label id="heartIcon" x="52%" y="62%" font="@Fonts.customFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" />
+    <label id="fireIcon" x="55%" y="27%" font="@Fonts.customFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <label id="walkIcon" x="55%" y="40%" font="@Fonts.customFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_WHITE" />
+    <label id="lungIcon" x="55%" y="53%" font="@Fonts.customFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" />
+    <label id="heartIcon" x="55%" y="65%" font="@Fonts.customFont" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_GREEN" />
 </layout>
