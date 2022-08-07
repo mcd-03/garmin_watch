@@ -5,6 +5,7 @@ import Toybox.System;
 import Toybox.WatchUi;
 import Toybox.ActivityMonitor;
 import Toybox.Weather;
+import Toybox.Activity;
 
 class fountain_penView extends WatchUi.WatchFace {
 
@@ -39,7 +40,8 @@ class fountain_penView extends WatchUi.WatchFace {
         var vo2 = userProfile.vo2maxRunning;
         var today = Time.Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
         var hour = today.hour;
-        var hr = SensorHistory.getHeartRateHistory(null).next().data;
+        // var hr = SensorHistory.getHeartRateHistory(null).next().data;
+        var hr = Activity.getActivityInfo().currentHeartRate;
 
         // Offsets time instead of using military time
         if (hour > 12) {
@@ -48,8 +50,12 @@ class fountain_penView extends WatchUi.WatchFace {
 
         // Replaces HR with - if data not available
         if (hr == null) {
+            hr = SensorHistory.getHeartRateHistory(null).next().data;
+        } 
+        if (hr == null) {
             hr = "-";
-        } else {
+        }
+        else {
             hr = "" + hr;
         }
 
