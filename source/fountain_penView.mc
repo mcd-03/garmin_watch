@@ -40,13 +40,7 @@ class fountain_penView extends WatchUi.WatchFace {
         var vo2 = userProfile.vo2maxRunning;
         var today = Time.Gregorian.info(Time.now(), Time.FORMAT_MEDIUM);
         var hour = today.hour;
-        // var hr = SensorHistory.getHeartRateHistory(null).next().data;
         var hr = Activity.getActivityInfo().currentHeartRate;
-
-        // Offsets time instead of using military time
-        if (hour > 12) {
-            hour = hour - 12;
-        }
 
         // Replaces HR with - if data not available
         if (hr == null) {
@@ -59,13 +53,18 @@ class fountain_penView extends WatchUi.WatchFace {
             hr = "" + hr;
         }
 
-        // Test custom font
+        // Offsets time instead of using military time
+        if (hour > 12) {
+            hour = hour - 12;
+        }
+
+        // Draw icons
         View.findDrawableById("fireIcon").setText("I");
         View.findDrawableById("walkIcon").setText("W");
         View.findDrawableById("lungIcon").setText("B");
         View.findDrawableById("heartIcon").setText("H");
 
-        // Updates watch display fields
+        // Draw data
         View.findDrawableById("hourLabel").setText("" + hour.format("%02d"));
         View.findDrawableById("minLabel").setText("" + today.min.format("%02d"));
         View.findDrawableById("vo2Label").setText("" + vo2);
@@ -76,6 +75,21 @@ class fountain_penView extends WatchUi.WatchFace {
 
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
+    }
+
+    function onPartialUpdate(dc as DC) as Void {
+        var hr = Activity.getActivityInfo().currentHeartRate;
+        // Replaces HR with - if data not available
+        if (hr == null) {
+            hr = SensorHistory.getHeartRateHistory(null).next().data;
+        } 
+        if (hr == null) {
+            hr = "-";
+        }
+        else {
+            hr = "" + hr;
+        }
+        View.findDrawableById("heartRateLabel").setText(hr);
     }
 
     // Called when this View is removed from the screen. Save the
